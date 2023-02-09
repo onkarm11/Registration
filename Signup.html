@@ -143,11 +143,20 @@ button{
         {% csrf_token %} 
         <h3>Signup Here</h3>
 
-        <label for="username">Username</label>
-        <input type="text" placeholder="Username" name="username" id="username">
+        <label for="firstname">First Name</label>
+        <input type="firstname" placeholder="fname" name="fname" id="fname">
+      
+        <label for="lastname">Last Name</label>
+        <input type="lastname" placeholder="lname" name="lname" id="lname">
 
         <label for="email">Email</label>
         <input type="email" placeholder="Email or Phone" name="email" id="email">
+      
+        <label for="username">Username</label>
+        <input type="username" placeholder="Username" name="username" id="username">
+      
+        <label for="adress">Address</label>
+        <input type="address" placeholder="Address" name="address" id="address">
 
         <label for="password1">Password</label>
         <input type="password" placeholder="Password" id="password1" name="password1">
