@@ -1,0 +1,12 @@
+import os
+
+from django.core.wsgi import get_wsgi_application
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'registration.settings')
+
+application = get_wsgi_application()
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
